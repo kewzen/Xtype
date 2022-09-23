@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href = "css/dark.css"  id = "them">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xtype</title>
+</head>
+<body>
+   
+    <button id="theme" onclick = "themes()"><img src="moon.png" alt="" id = "itheme"></button>
+   
+    <button id="morethemes" onclick = "mthemes()"><img src="appe.png" alt="" id = "appe"></button>
+     
+    <div id = "mtheme">
+        <button id="tgt" onclick="tgt()">Blue theme</button>
+        <button id="gmmk" onclick = "gmmk()">Red theme</button>
+    </div>
+    <button id="choicecar" onclick = "choicecar()"><img src="car.png" alt="" id = "caricon"></button>
+    
+    <p id = "time" ></p>
+    <p id="pretime"></p>
+        <img src="cars/boxer.png" alt="" id="car">
+    <div id="text"><p id="words"></p></div>
+    <div id="cars">
+        <button id = "close" onclick = "closee()"><img src="cross.png" alt="" id = "cross"></button>
+        <button id = "moto" onclick = "moto()">Moto</button>
+        <button id="lambo" onclick = "lambo()">Lambo</button>
+        <button id="tesla" onclick = "tesla()">Tesla</button>
+        <button id="ferrari" onclick  = "ferrari()">Ferrari</button>
+        <button id="boxer" onclick = "boxer()">Boxer</button>
+        <button id="trolley" onclick="trolley()">Trolley</button>
+        <button id="ship" onclick="ship()">Ship</button>
+        <button id="fmoto" onclick = "fmoto()">Future moto</button>
+        <button id = "dino" onclick = "dino()">Dino</button>
+        <p id ="tc">Машины взяты с сайта typeracer.ru</p>
+    </div>
+    <button id="modes" onclick  = "omodes()"><img src="settings.png" alt="" id = "micon"></button>
+
+    <div id="modesmenu">
+        <button id = "sot" onclick  = "sot()">Соточка</button>
+        <button id="cifr" onclick = "cifr()">Цифросоточка</button>
+    </div>
+    <input type="text" id  = "inp" oninput= "ch(this)">
+    <p id = "path">- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
+    <footer id = "footer">© Kewzen All right reversed</footer>
+</body>
+</html>
